@@ -57,7 +57,7 @@
                                     <?php echo $newsItem['author_name']; ?> on <?php echo $newsItem['date']; ?>
                                     &nbsp;&bull;&nbsp; <a href='/news' class="permalink">Back to HomePage</a></p>
                                 <div class="entry">
-                                    <p><img src="/template/images/<?php echo $newsItem['id']; ?>.jpg" alt="" class="responsive"/></p>
+                                    <p><img src="<?php echo News::getImage($newsItem['id']); ?>" alt="" class="responsive"/></p>
                                     <p><?php echo htmlentities($newsItem['content']); ?></p>
                                 </div>
                             </div>
