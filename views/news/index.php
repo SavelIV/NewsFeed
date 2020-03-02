@@ -58,7 +58,7 @@
                                         <?php echo $newsItem['author_name']; ?> on <?php echo $newsItem['date']; ?>
                                         &nbsp;&bull;&nbsp;
                                     <div class="entry">
-                                        <p><img src="/template/images/<?php echo $newsItem['id']; ?>.jpg" alt="" /></p>
+                                        <p><img src="<?php echo News::getImage($newsItem['id']); ?>" alt="" /></p>
                                         <p><?php echo htmlentities($newsItem['short_content']); ?></p>
                                     </div>
                                 </div>
