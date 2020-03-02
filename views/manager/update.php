@@ -58,7 +58,7 @@
                                         <p>*Содержание</p>
                                         <input type="text" name="content" placeholder="" value="<?php echo $newsItem['content']; ?>">
                                         <br/><br/>
-                                        <p>Изображение товара</p>
+                                        <p>Фото новости</p>
                                         <img src="<?php echo News::getImage($newsItem['id']); ?>" width="200" alt="" />
                                         <input type="file" name="image" accept="image/*">
                                         <br/><br/>
