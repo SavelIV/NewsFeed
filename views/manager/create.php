@@ -58,7 +58,7 @@
                                         <p>*Содержание</p>
                                         <textarea rows="3" cols="50" name="content" required placeholder="Полное содержание"></textarea>
                                         <br/><br/>
-                                        <p>Изображение товара</p>
+                                        <p>Фото новости</p>
                                         <input type="file" name="image" accept="image/*">
                                         <br/><br/>
                                         <p>*Категория</p>
