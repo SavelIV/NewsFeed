@@ -1,4 +1,4 @@
-Some test work.
+A test work.
 
 Стек:
 MySQL 5.6
